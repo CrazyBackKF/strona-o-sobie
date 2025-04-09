@@ -1,7 +1,7 @@
 const music = new Howl({
     src: ["assets/i-be-poppin-bottles.mp3"],
     autoplay: true,
-    repeat: true
+    loop: true
 })
 
 const canvas = document.querySelector("canvas");
