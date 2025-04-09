@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 2em;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section, header {
+    background: #1c1c1c;
+    border-radius: 0.8em;
+    padding: 2em;
+    margin: 1.5em auto;
+    max-width: 800px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    border: 2px solid #444;
+}
+
+ul, ol {
+    padding-left: 1.2em;
+    text-align: start;
+}
+
+button {
+    padding: 0.6em 1.2em;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
